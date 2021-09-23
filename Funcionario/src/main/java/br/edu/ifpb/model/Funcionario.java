@@ -4,28 +4,15 @@ public class Funcionario {
 
     private String nome;
 
-    public void cozinheiro(){
-
-        System.out.println(this.nome + "Cozinhando...");
-
+    public Funcionario(String nome) {
+        this.nome = nome;
     }
 
-    public void jardineiro(){
-
-        System.out.println(this.nome + "Podando...");
-
+    public String getNome() {
+        return nome;
     }
 
-    public void pintor(){
-
-        System.out.println(this.nome + "Pintando...");
-
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-
-    public void motorista(){
-
-        System.out.println(this.nome + "Dirigindo...");
-
-    }
-
 }

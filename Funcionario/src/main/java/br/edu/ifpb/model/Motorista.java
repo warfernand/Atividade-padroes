@@ -6,9 +6,13 @@ public class Motorista extends Funcionario implements Contratado, Rastreavel{
         super(nome);
     }
 
+    public Motorista() {
+
+    }
+
     public void dirigir(){
 
-        System.out.println(super.getNome() + "Dirigindo...");
+        System.out.println(super.getNome() + " Dirigindo...");
 
     }
 

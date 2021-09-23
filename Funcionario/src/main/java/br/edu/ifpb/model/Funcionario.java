@@ -8,6 +8,10 @@ public class Funcionario {
         this.nome = nome;
     }
 
+    public Funcionario() {
+
+    }
+
     public String getNome() {
         return nome;
     }

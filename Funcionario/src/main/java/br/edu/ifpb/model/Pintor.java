@@ -6,7 +6,7 @@ public class Pintor extends Funcionario{
         super(nome);
     }
 
-    public void pintor(){
+    public void pintar(){
 
         System.out.println(super.getNome() + "Pintando...");
 

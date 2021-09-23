@@ -6,7 +6,7 @@ public class Cozinheiro extends Funcionario{
         super(nome);
     }
 
-    public void cozinheiro(){
+    public void cozinhar(){
 
         System.out.println( super.getNome() + "Cozinhando...");
 

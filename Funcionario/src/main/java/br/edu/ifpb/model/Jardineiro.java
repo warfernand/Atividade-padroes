@@ -6,7 +6,7 @@ public class Jardineiro extends Funcionario{
         super(nome);
     }
 
-    public void jardineiro(){
+    public void podar(){
 
         System.out.println(super.getNome() + "Podando...");
 

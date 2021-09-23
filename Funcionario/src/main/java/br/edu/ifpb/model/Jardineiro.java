@@ -1,6 +1,6 @@
 package br.edu.ifpb.model;
 
-public class Jardineiro extends Funcionario{
+public class Jardineiro extends Funcionario implements Contratado{
 
     public Jardineiro(String nome) {
         super(nome);
@@ -12,4 +12,13 @@ public class Jardineiro extends Funcionario{
 
     }
 
+    @Override
+    public void getLucro() {
+
+    }
+
+    @Override
+    public void setLucro() {
+
+    }
 }

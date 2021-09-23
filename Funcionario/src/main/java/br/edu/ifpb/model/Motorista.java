@@ -1,6 +1,6 @@
 package br.edu.ifpb.model;
 
-public class Motorista extends Funcionario{
+public class Motorista extends Funcionario implements Contratado, Rastreavel{
 
     public Motorista(String nome) {
         super(nome);
@@ -19,4 +19,23 @@ public class Motorista extends Funcionario{
 
     }
 
+    @Override
+    public void getLucro() {
+
+    }
+
+    @Override
+    public void setLucro() {
+
+    }
+
+    @Override
+    public void getCurrentLocation() {
+
+    }
+
+    @Override
+    public void setCurrentLocation() {
+
+    }
 }
